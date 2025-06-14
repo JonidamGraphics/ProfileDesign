@@ -1,0 +1,550 @@
+body {
+  background-image: linear-gradient(225deg, #DFDFDF, #E7E7E7);
+  background-color: #DFDFDF;
+  min-height: 100vh;
+  margin: 0; 
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.container{
+  position: relative;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  margin: 3.5vw 3.5vw 0px 3.5vw;
+  height: 100vh;
+    }
+
+
+
+.name-container{
+  display: grid;
+  grid-template-columns: 30vw auto;
+  grid-template-rows: auto auto;
+}
+
+.div2{
+  width: auto;
+}
+
+h1{
+    font-size: 3.2vw;
+    font-weight: 300;
+    margin: 0;
+}
+.font-media{
+    font-weight: 600;
+}
+
+h3{
+  color: #AAAAAA;
+  font-size: 1.3vw;
+  font-weight: 600;
+  margin: 0;
+  justify-self: right;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 35vw auto 35vw;
+  grid-template-rows: auto auto auto;
+  gap: 2.2vw;
+  margin-top: 2.2vw;
+}
+
+.topic{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  gap: 0.44vw;
+}
+.second-info{
+  margin-top: 1.18vw;
+}
+
+.headline{
+  display: flex;
+  align-items: center;
+}
+
+.information{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  min-width: 4.5vw;
+}
+
+.first-info{
+  margin: 0;
+
+}
+.headline-name, .details {
+  margin-left: 0.59vw;
+}
+
+.topic-name {
+  color: #989898;
+}
+
+
+.school-name, .location {
+  justify-self: left;
+  color:#6B6B6B;
+  font-weight: 400;
+}
+
+.course-name {
+  justify-self: left;
+  color:#323232;
+  font-weight: 500;
+}
+
+.logo-list{
+  display: grid;
+  grid-template-columns: repeat(4, 2.94vw);
+  grid-template-rows: repeat(2, 2.94vw);
+  gap: 18px;
+}
+
+/*Language*/
+.language-list{
+  display: grid;
+  grid-template-columns: repeat(3, 7.34vw);
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  margin: 0;
+}
+
+.proficiency{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag{
+  height: 1.98vw;
+  width: 2.94vw;
+}
+.grade{
+  color: #6B6B6B;
+  margin: 12px 0px 0px 0px;
+  font-weight: 500;
+}
+
+/*Interest*/
+
+.interest-list{
+  display: grid;
+  grid-template-columns: repeat(2, 8.8vw);
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  gap: 24px;
+  margin: 0;
+}
+.interests{
+  padding-left: 6vw;
+}
+
+.my-interest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interest-icon{
+  height: 2.3vw;
+  width: 2.93vw;
+}
+.interest-value{
+  color: #6B6B6B;
+  margin: 12px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.pi-div{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto; 
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile-img{
+  height: 40.6vw;
+  width: 50.36vw;
+}
+      
+
+
+@media (min-width: 1201px) and (orientation: landscape) {
+  .container{
+  position: relative;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  margin: 3.5vw 3.5vw 0px 3.5vw;
+  height: 100vh;
+    }
+
+
+
+.name-container{
+  display: grid;
+  grid-template-columns: 30vw auto;
+  grid-template-rows: auto auto;
+}
+
+.div2{
+  width: auto;
+}
+
+h1{
+    font-size: 3.2vw;
+    font-weight: 300;
+    margin: 0;
+}
+.font-media{
+    font-weight: 600;
+}
+
+h3{
+  color: #AAAAAA;
+  font-size: 1.3vw;
+  font-weight: 600;
+  margin: 0;
+  justify-self: right;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 35vw auto 35vw;
+  grid-template-rows: auto auto auto;
+  gap: 2.2vw;
+  margin-top: 2.2vw;
+}
+
+.topic{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  gap: 0.44vw;
+}
+.second-info{
+  margin-top: 1.18vw;
+}
+
+.headline{
+  display: flex;
+  align-items: center;
+}
+
+.information{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  min-width: 4.5vw;
+}
+
+.first-info{
+  margin: 0;
+
+}
+.headline-name, .details {
+  margin-left: 0.59vw;
+}
+
+.topic-name {
+  color: #989898;
+}
+
+
+.school-name, .location {
+  justify-self: left;
+  color:#6B6B6B;
+  font-weight: 400;
+}
+
+.course-name {
+  justify-self: left;
+  color:#323232;
+  font-weight: 500;
+}
+
+.logo-list{
+  display: grid;
+  grid-template-columns: repeat(4, 2.94vw);
+  grid-template-rows: repeat(2, 2.94vw);
+  gap: 18px;
+}
+
+/*Language*/
+.language-list{
+  display: grid;
+  grid-template-columns: repeat(3, 7.34vw);
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  margin: 0;
+}
+
+.proficiency{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag{
+  height: 1.98vw;
+  width: 2.94vw;
+}
+.grade{
+  color: #6B6B6B;
+  margin: 12px 0px 0px 0px;
+  font-weight: 500;
+}
+
+/*Interest*/
+
+.interest-list{
+  display: grid;
+  grid-template-columns: repeat(2, 8.8vw);
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  gap: 24px;
+  margin: 0;
+}
+.interests{
+  padding-left: 6vw;
+}
+
+.my-interest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interest-icon{
+  height: 2.3vw;
+  width: 2.93vw;
+}
+.interest-value{
+  color: #6B6B6B;
+  margin: 12px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.pi-div{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto; 
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile-img{
+  height: 40.6vw;
+  width: 50.36vw;
+}
+      
+    }
+
+@media (min-width: 1201px) and (orientation: portrait) {
+  .container{
+  position: relative;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  margin: 3.5vw 3.5vw 0px 3.5vw;
+  height: 100vh;
+    }
+
+
+
+.name-container{
+  display: grid;
+  grid-template-columns: 30vw auto;
+  grid-template-rows: auto auto;
+}
+
+.div2{
+  width: auto;
+}
+
+h1{
+    font-size: 3.2vw;
+    font-weight: 300;
+    margin: 0;
+}
+.font-media{
+    font-weight: 600;
+}
+
+h3{
+  color: #AAAAAA;
+  font-size: 1.3vw;
+  font-weight: 600;
+  margin: 0;
+  justify-self: right;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 35vw auto 35vw;
+  grid-template-rows: auto auto auto;
+  gap: 2.2vw;
+  margin-top: 2.2vw;
+}
+
+.topic{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  gap: 0.44vw;
+}
+.second-info{
+  margin-top: 1.18vw;
+}
+
+.headline{
+  display: flex;
+  align-items: center;
+}
+
+.information{
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  min-width: 4.5vw;
+}
+
+.first-info{
+  margin: 0;
+
+}
+.headline-name, .details {
+  margin-left: 0.59vw;
+}
+
+.topic-name {
+  color: #989898;
+}
+
+
+.school-name, .location {
+  justify-self: left;
+  color:#6B6B6B;
+  font-weight: 400;
+}
+
+.course-name {
+  justify-self: left;
+  color:#323232;
+  font-weight: 500;
+}
+
+.logo-list{
+  display: grid;
+  grid-template-columns: repeat(4, 2.94vw);
+  grid-template-rows: repeat(2, 2.94vw);
+  gap: 18px;
+}
+
+/*Language*/
+.language-list{
+  display: grid;
+  grid-template-columns: repeat(3, 7.34vw);
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  margin: 0;
+}
+
+.proficiency{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flag{
+  height: 1.98vw;
+  width: 2.94vw;
+}
+.grade{
+  color: #6B6B6B;
+  margin: 12px 0px 0px 0px;
+  font-weight: 500;
+}
+
+/*Interest*/
+
+.interest-list{
+  display: grid;
+  grid-template-columns: repeat(2, 8.8vw);
+  grid-template-rows: auto;
+  grid-auto-rows: auto;
+  gap: 24px;
+  margin: 0;
+}
+.interests{
+  padding-left: 6vw;
+}
+
+.my-interest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interest-icon{
+  height: 2.3vw;
+  width: 2.93vw;
+}
+.interest-value{
+  color: #6B6B6B;
+  margin: 12px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.pi-div{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto; 
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.profile-img{
+  height: 40.6vw;
+  width: 50.36vw;
+}
+      
+    }
